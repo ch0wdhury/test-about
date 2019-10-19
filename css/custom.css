@@ -16,6 +16,9 @@
     font-size: 22px;
     text-align: justify all;
   }
+  .top-margin {
+    margin-top: 0px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -24,11 +27,17 @@
     font-size: 28px;
     text-align: justify all;
   }
+  .top-margin {
+    margin-top: 0px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .about-us-content {
     font-size: 30px;
+  }
+  .top-margin {
+    margin-top: 0px;
   }
 }
 
